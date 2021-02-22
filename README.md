@@ -10,6 +10,6 @@ npm install
 npm run serve
 ```
 ### 결과 확인
-'''
+```
 http://localhost:8080/
-'''
+```
