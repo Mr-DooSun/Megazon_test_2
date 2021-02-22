@@ -17,3 +17,37 @@ npm run serve
 ### 결과 확인
 http://localhost:8080/
 
+---
+>
+## APK 빌드하기
+>
+### CapacitorJS 설치
+```
+npm install @capacitor/core @capacitor/cli
+```
+```
+npx cap init
+```
+
+### capacitor.config.json 파일에 webDir 데이터 변환
+```
+webDir : "wwww"
+```
+에서
+```
+webDir : "dist"
+```
+으로 변환해줍니다
+
+### 프로젝트 빌드
+```
+npm run build
+```
+### 안드로이드
+```
+npx cap add android
+```
+### 안드로이드 실행
+```
+npx cap open android
+```
