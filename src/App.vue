@@ -3,13 +3,22 @@
     <v-app-bar app 
       color='blue'
       dark
-      scroll-target="#scrolling-techniques-6"
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
       <v-toolbar-title>EC2 INSTANCE STATUS</v-toolbar-title>
-      <v-spacer></v-spacer>
     </v-app-bar>
+    
     <v-main>
+      <v-btn 
+        white
+        rounded
+        block
+        color='white'
+        onclick='location.reload(true)'
+      >
+        <v-icon dark>reload</v-icon>
+      </v-btn>
+      
       <ec2_instance/>
     </v-main>
   </v-app>
