@@ -4,7 +4,9 @@
 ```
 npm install
 ```
-아래링크로 이동하여 Megazon test 1 을 실행 합니다. 
+아래링크로 이동하여 Megazon test 1 에 server.ts파일을 실행 합니다. 
+>
+(빌드로 만들어진 server.js를 실행시켜도 무관함)
 >
 https://github.com/Mr-DooSun/Megazone_test
 
